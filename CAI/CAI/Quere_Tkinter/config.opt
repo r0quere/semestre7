@@ -1,0 +1,12 @@
+*Button.foreground: red
+*Button.width:20
+*Label.foreground: blue
+*labelBonjour.foreground: green
+*Label.background: light yellow
+*Label.relief: raised
+*frameX.foreground: red
+*frameX.width:40
+*frameX.relief:raised
+*frameY.foreground: blue
+*frameY.width:40
+*frameY.relief:raised

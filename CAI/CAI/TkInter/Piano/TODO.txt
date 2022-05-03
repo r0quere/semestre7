@@ -1,0 +1,138 @@
+Objectifs de l'application
+==========================
+
+Developper une application interactive pour :
+  - creer des sons
+  - les visualiser sous forme d'onde
+  - jouer les sons (notes) sur un clavier de piano sur 1 puis 2 octaves puis 3 ...
+  - apprendre a reconnaitre les notes au piano (afficher le nom des notes,visualiser la touche correspondante)
+  - creer des accords majeurs (tonalite-tierce-quinte) a partir des notes  (exemple accord Do majeur : C-E-G)
+  - jouer les accords sur un clavier de piano sur 1 puis 2 octaves puis 3 ...
+  - apprendre a reconnaitre les accords au piano (afficher le nom et les notes des accords,visualiser les touches correspondantes ...) 
+
+Pour aller plus loin :
+  - apprendre a jouer des renversements d'accords !
+
+Etapes à suivre 
+===============
+
+1) wave_generator.py : Proposer et implementer une IHM pour creer des sons (notes pures puis harmoniques) au format wav.
+
+2) wave_visualizer.py : Proposer et implementer une IHM pour visualiser un son pur puis un son (une note) avec ses harmoniques.
+
+3) keyboard.py : Proposer et implementer une IHM pour jouer des notes sur un clavier a 1 octave
+
+4) piano.py : Proposer et implementer une IHM pour jouer des notes sur un clavier de piano a 1 puis 2 puis 3... octaves
+
+5) main.py : integration des trois versions dans une seule IHM des versions precedentes.
+
+   On ajoutera dans cette version une barre de menu avec 2 menu-déroulants :
+                 - File :
+                     - Open : Boite de Dialogue pour charger un son
+                     - Exit : Boite de Dialogue pour avertir l'utilisateur avant de fermer l'application
+                 - Help :
+                     - About Us :  Boite de Dialogue avec les noms et mails des concepteurs
+                     - About TkInter :  Boite de Dialogue de remerciements sur le logiciel utilisé
+
+
+
+6) Enrichir l'IHM du piano pour :
+     - apprendre a reconnaitre les notes sur le clavier
+     - visualiser et jouer des accords au piano
+     - visualiser et jouer les accords et leur renversement
+
+
+
+Liens utiles pour mettre en place cette application interactive :
+
+ - http://fsincere.free.fr/isn/python/cours_python_ch9.php
+ - http://freesoundeditor.com/docwave.htm
+ - http://blog.acipo.com/wave-generation-in-python
+ - https://www.tutorialspoint.com/read-and-write-wav-files-using-python-wave
+ - https://www.programcreek.com/python/example/82393/wave.open
+ - https://f5zv.pagesperso-orange.fr/RADIO/RM/RM23/RM23B/RM23B04.htm
+ - http://tpecan.free.fr/index.php?page=echantillonnage
+ 
+
+Répertoires de l'application
+============================
+
+Audio
+-----
+  - audio_wav.py :  creer des fichiers au format wav pour une frequence (note) donnee (cf : Fabrice Sincere ; Jean-Claude Meilland, ...)
+  - create_chords.py  :  creation d'un accord  (3 notes) au format wav 
+  - create_notes_from_db.py : creation des notes a partir de la base de données (frequencies.db) 
+  - frequencies.db, frequencies.py : stocker dans une table de BD la frequence des notes de gammes musicales
+  - note_read.py,note_save.py : tests de lecture/écriture de fichier au format wav
+  - wav_create_note-0.py : creation d'un son (note) au format wav
+  - wav_read_note-0.py : lecture  d'un son (note) au format wav
+
+Chords
+------
+
+Repertoire de sauvegarde des accords
+
+Docs
+----
+  - CAI_Tkinter.pdf :notes de cours 
+  - links.txt : liens "au Net"
+  - tkinter_nmt.pdf : doc de reference sur la bibliotheque TkInter
+  - wav_pointal.pdf : notes de cours de Larurent Pointal pour générer des sons au format wav
+
+Sounds
+------
+
+Repertoire de sauvegarde des notes
+
+Utils
+-----
+
+fonctions utiles et programmes de tests
+
+Archives à rendre en fin de séance
+==================================
+
+En fin d'après-midi (17h) rendre une archive du travail du repertoire
+qui contiendra seulement les répertoires et fichiers utiles à l'exécution des applications :
+
+   1- keyboard.py
+   2- wave_generator.py  
+   3- wave_visualizer.py
+   4- main.py
+   5- piano.py
+
+Pour le binôme Dupond-Dupont cette archive sera nommée : 
+   - Dupond_Dupont_Piano.tgz
+sera générée par la commande tar :
+  - tar zcvf Dupond_Dupont_Piano.tgz Dupond_Dupont_Piano
+et contiendra les fichiers et répertoires suivants :
+
+Dupond_Dupont_Piano/
+├── Audio
+│   ├── audio_wav.py
+│   ├── create_chords.py
+│   ├── create_notes_from_db.py
+│   ├── frequencies.db
+│   ├── frequencies.py
+│   ├── note_read.py
+│   ├── note_save.py
+├── Chords
+│   └── *.wav
+├── keyboard.py
+├── main.py
+├── observer.py
+├── piano.py
+├── Sounds
+│   └── *.wav
+├── TODO.txt
+├── Utils
+│   └── *.wav
+├── wave_generator.py
+└── wave_visualizer.py
+
+L'archive sera à déposer en fin de chaque séance sour le répertoire :
+  - /home/TP/TPrendu/nedelec/CAI/TkInter
+
+
+
+

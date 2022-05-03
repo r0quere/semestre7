@@ -1,0 +1,344 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.0
+Ecomparateur
+Z0 w1646061300
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/romai/OneDrive/Bureau/Enib S7/VHDL/Labo
+Z5 8C:\Users\romai\OneDrive\Bureau\Enib S7\VHDL\Labo\labo1.vhd
+Z6 FC:\Users\romai\OneDrive\Bureau\Enib S7\VHDL\Labo\labo1.vhd
+l0
+L150
+VX6ZBc@66=C0i_czf;5Ni;0
+!s100 leOEHVQQB=_FfzJ:[F`V`0
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1646061305
+!i10b 1
+Z9 !s108 1646061304.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\romai\OneDrive\Bureau\Enib S7\VHDL\Labo\labo1.vhd|
+Z11 !s107 C:\Users\romai\OneDrive\Bureau\Enib S7\VHDL\Labo\labo1.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch_comparateur
+R1
+R2
+R3
+Z14 DEx4 work 11 comparateur 0 22 X6ZBc@66=C0i_czf;5Ni;0
+l156
+L155
+V]LH=aH4Uo4Z5B6AZeLc=13
+!s100 8m=JJEN5Xf:[GC]]HgaeQ1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecompteur_base
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L28
+V^cW?5@4R7?Gn<_h`f`6`d3
+!s100 6CfN;COgUWoD376:Y]1RR3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_compteur_base
+R1
+R2
+R3
+Z15 DEx4 work 13 compteur_base 0 22 ^cW?5@4R7?Gn<_h`f`6`d3
+l36
+L34
+Z16 VLcWTc[8PlEJFZLPC:_izE2
+Z17 !s100 bHLa[oBlj_RSoWK59lCaL3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edetect_front
+Z18 w1645814398
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L59
+Vd1BoB`QAjGYE;ZjIC6mOJ2
+!s100 I0nICafCV60[O1IF<ZOKF2
+R7
+32
+Z19 !s110 1645814502
+!i10b 1
+Z20 !s108 1645814502.000000
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_detect_front
+R1
+R2
+R3
+DEx4 work 12 detect_front 0 22 d1BoB`QAjGYE;ZjIC6mOJ2
+l67
+L64
+VJlJ;l2^zZ>9hFkdP@1F6U0
+!s100 EE<ESn368?8iNm@HCR:0G0
+R7
+32
+R19
+!i10b 1
+R20
+R10
+R11
+!i113 1
+R12
+R13
+Edetect_front_entre
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L55
+Vm=_db2PoXiWhE93=RE1<<1
+!s100 _28hBC[J[4cCb3Egk5OOi1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_detect_front_entre
+R1
+R2
+R3
+Z21 DEx4 work 18 detect_front_entre 0 22 m=_db2PoXiWhE93=RE1<<1
+l64
+L61
+Z22 VK8_=7Qib9?Hzn]6>2S]AU2
+Z23 !s100 KfW6c2Bk[`Pm<51R4TU:l0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edetect_front_sortie
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L93
+VHJT0JgI1_7m=oom1o[1ZO3
+!s100 >_63SH@<k>]kN^SR[d9Li2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_detect_front_sortie
+R1
+R2
+R3
+Z24 DEx4 work 19 detect_front_sortie 0 22 HJT0JgI1_7m=oom1o[1ZO3
+l102
+L99
+Z25 VlgFIC]>kHEK]Szf`M68Ud2
+Z26 !s100 85Pjk3<gM=?XWdOe_C7:52
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eparking
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L172
+VIlkb[WcRlG1NQGe?ZeL3^1
+!s100 bHAn1<o6jkDVK@B=m@TVG3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_parking
+R14
+Z27 DEx4 work 12 soustracteur 0 22 nX]lB;M7YigcZjQz]`2?60
+R24
+R21
+R15
+Z28 DEx4 work 8 registre 0 22 K5Y_dVH8c3JJ^iX4KTO8D0
+R1
+R2
+R3
+Z29 DEx4 work 7 parking 0 22 Ilkb[WcRlG1NQGe?ZeL3^1
+l182
+L177
+Z30 VJ:6kVR`3ARG[<=HU[gcgm2
+Z31 !s100 @DldHZKWEV6_E2mN43`GX3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eregistre
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L5
+VK5Y_dVH8c3JJ^iX4KTO8D0
+!s100 l^L>1?^aLh6CNVHM2e_[M2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_register
+R1
+R2
+R3
+R28
+l11
+L10
+Z32 VdjXi?3:[Ub?DYf3a<bD202
+Z33 !s100 ilCGjiLZPYa?nY4`?[iGN3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esoustracteur
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L132
+VnX]lB;M7YigcZjQz]`2?60
+!s100 fY@S5m>UhfeO_ZW]JQK492
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_soustracteur
+R1
+R2
+R3
+R27
+l139
+L137
+Z34 VDaDEnjYVVMBKVMP6<Rm?P3
+Z35 !s100 IR^CD13MaDd]DCSUa2B5j1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13

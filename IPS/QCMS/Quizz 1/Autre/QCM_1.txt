@@ -1,0 +1,124 @@
+Perturbation couplage galvanique:
+---------------------------------
+
+Perturbations du à d'autres circuits reliés par la même alimentation
+
+Perturbation couplage magnétique:
+---------------------------------
+
+Lorsqu'un circuit inductif crée une pertubation dans son environnement
+
+Perturbation couplage electrique:
+---------------------------------
+
+Une perturbation du a la présence d'une piste de cuivre à proximité d'une autre
+
+======================================================================================
+======================================================================================
+
+Reduire perturbations par couplage electrique
+---------------------------------------------
+
+- On utilise un blindage électrostatique
+- En symétrisant les voies qui transmette l'information sensible
+
+Reduire perturbations par couplage galvanique
+----------------------------------------------
+
+- On utilise un point de masse unique
+- On place des filtres passe-bas
+
+Reduire pertubations par couplage magnétique
+---------------------------------------------
+
+- place le circuit perpendiculairement au champ magnétique
+- utilise un blindage ferromagnétique
+
+======================================================================================
+======================================================================================
+
+Interet du montage en pont de Wheastone par rapport au montage potentiométrique
+-------------------------------------------------------------------------------
+
+- Supprimer la conposante continue de la mesure
+- Réduire la sensibilité aux variations de la tensions de polarisation
+
+======================================================================================
+======================================================================================
+
+Sentibilité S du capteur
+------------------------
+
+S = dF/dM
+
+======================================================================================
+======================================================================================
+
+interet montage push-pull pour un pont de mesure
+-------------------------------------------------
+
+- Linéariser la sortie de mesure
+- Augmenter la sensibilité de la mesure
+
+======================================================================================
+======================================================================================
+
+Capteur exact si
+-----------------
+
+les deux ( ecart type faible et pas d'erreur systématique)
+
+Capteur fidèle si
+-----------------
+
+l'ecart type qu'il fournit est faible
+
+Capteur juste si
+-----------------
+
+si il est dépourvu d'erreur systématique
+
+======================================================================================
+======================================================================================
+
+Chaine de mesure
+-----------------
+
+Re soit grande et Rs soit faible
+
+======================================================================================
+======================================================================================
+
+Filtre RC
+----------
+
+7.956*10^(-5)
+
+======================================================================================
+======================================================================================
+
+Wheatstone potentiel en A
+--------------------------
+
+va= (( Rc) / R1+Rc)*es
+
+Wheatstone potentiel en B
+-------------------------
+
+Vm = ((R3Rc - R1R4) / ( R1+Rc)(R4+R3) )*es
+
+======================================================================================
+======================================================================================
+
+Montage AOP:
+------------
+
+rapport : -2
+
+======================================================================================
+======================================================================================
+
+Capteur sur la figure suivante:
+--------------------------------
+
+Mesurer courant

@@ -1,0 +1,28 @@
+{C:/Users/romai/OneDrive/Bureau/Enib S7/VHDL/Labo/labo1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\romai\OneDrive\Bureau\Enib S7\VHDL\Labo\labo1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registre
+-- Compiling architecture arch_register of registre
+-- Compiling entity compteur_base
+-- Compiling architecture arch_compteur_base of compteur_base
+-- Compiling entity detect_front_entre
+-- Compiling architecture arch_detect_front_entre of detect_front_entre
+-- Compiling entity detect_front_sortie
+-- Compiling architecture arch_detect_front_sortie of detect_front_sortie
+-- Compiling entity soustracteur
+-- Compiling architecture arch_soustracteur of soustracteur
+-- Compiling entity comparateur
+-- Compiling architecture arch_comparateur of comparateur
+-- Compiling entity parking
+-- Compiling architecture arch_parking of parking
+-- Loading entity registre
+-- Loading entity compteur_base
+-- Loading entity detect_front_entre
+-- Loading entity detect_front_sortie
+-- Loading entity soustracteur
+-- Loading entity comparateur
+
+} {} {}}
